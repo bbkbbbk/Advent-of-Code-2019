@@ -18,7 +18,7 @@ with open(filename, 'r') as file:
         while fuel > 0:
             sum_fuel_2 += fuel
             fuel = calculate_fuel(fuel)
-            
+
 print('Part1, What is the sum of the fuel requirements:', sum_fuel_1)
 print('Part1, What is the sum of the fuel requirements:', sum_fuel_2)
 
